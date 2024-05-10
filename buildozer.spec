@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = nikku
 
 # (str) Package name
 package.name = myapp
@@ -37,10 +37,8 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy
-
-# (str) Custom source folders for requirements
-# Sets custom source for any requirements with recipes
+requirements = python3,kivy==2.3.0,kivymd==1.2.0,pillow==10.3.0
+# (str) Custom source folders for requirements# Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
