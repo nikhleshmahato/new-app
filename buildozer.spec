@@ -29,7 +29,7 @@ source.include_exts = py,png,jpg,kv,atlas
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.1
+version = 1.0
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -440,7 +440,7 @@ warn_on_root = 1
 #    and extend the excluded directories to remove the HD content.
 #
 #[app@demo]
-#title = My Application (demo)
+#title = nikku (demo)
 #
 #[app:source.exclude_patterns@demo]
 #images/hd/*
